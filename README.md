@@ -33,7 +33,7 @@ So create a .env file in root and add:
 ```.env
 DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:54422/postgres
 SUPABASE_URL=http://127.0.0.1:54421
-SUPABASE_KEY=<supabase start çıktısındaki Secret key>
+SUPABASE_KEY=<the secret key from "npx supabase start command">
 ```
 
 or you can check the .env.example file.
